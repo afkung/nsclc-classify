@@ -1,2 +1,2 @@
 # nsclc-classify
-Code repository for (Kung et al., 2024) on classification of non-small cell lung cancer with PhIP-Seq
+Code repository for "An autoantibody-based machine learning classifier for the detection of early-stage non-small cell lung cancer" (Kung et al., 2024)
