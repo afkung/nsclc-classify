@@ -1,23 +1,26 @@
 # nsclc-classify
 Code repository for "An autoantibody-based machine learning classifier for the detection of early-stage non-small cell lung cancer" (Kung et al., 2024)
 
-Associated files:
+## Associated files:
 
-`formatting-scripts.ipynb`
 *Notebook of scripts for formatting datasets*
 
-`model-evaluation.ipynb`
+* `formatting-scripts.ipynb`
+
 *Notebook of scripts evaluating various models*
 
-`full-model.py`
+* `model-evaluation.ipynb`
+
 *Best-performing ensemble model*
 
-`validation-pipeline`
+* `full-model.py`
+
 *Folder of scripts used for blinded external validation*
-```
-run_validation.sh
-map2library.py
-filter_testset.py
-train_test.py
-output_files.py
-```
+
+* `validation-pipeline`
+  * run_validation.sh *master shell script*
+  * map2library.py *formatting read counts*
+  * filter_testset.py *sorting features to use*
+  * train_test.py *training on previous dataset, testing on new dataset*
+  * output_files.py *writing output files*
+
