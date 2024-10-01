@@ -24,3 +24,11 @@ Code repository for "An autoantibody-based machine learning classifier for the d
   * train_test.py *training on previous dataset, testing on new dataset*
   * output_files.py *writing output files*
 
+## Running trained model on new file
+ * `weight_files.zip` *zipped directory of weight files for component models*
+   * peptide_NN.pth *peptide-level neural network model from PyTorch*
+   * peptide_LR.pkl *peptide-level logistic regression model from sklearn*
+   * gene_LR.pkl *gene-level logistic regression model from sklearn*
+ * `test_new.py` *script for testing new read count file*
+
+Usage: download and unzip weight file directory, run `python test_new.py new_read_count_file.csv` from parent directory
