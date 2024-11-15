@@ -2,7 +2,7 @@
 # input: directory containing read counts in CSV format
 # output: text file with rows of file names and predictions
 # usage: python nsclc-predict.py /path/to/csv_directory /path/to/output_file.txt
-
+# package requirements: numpy, sklearn, torch
 
 import sys
 import os
@@ -49,7 +49,7 @@ if not os.path.isdir(csv_directory):
     print(f"Error. Directory {csv_directory} does not exist.")
     exit()
 
-print("NSCLC Predict")
+print("NSCLC Prediction:")
 
 # Load models and feature lists
 print("-- Loading models and feature lists...")
