@@ -42,3 +42,5 @@ Code repository for "An autoantibody-based machine learning classifier for the d
 * Run `python nsclc-predict.py /path/to/csv_directory /path/to/output_file.txt`
    * *Input:* directory of sample files (peptide names and counts in line-delimited CSV, see examples)
    * *Output:* text file of file names and predictions between 0 (healthy) and 1 (NSCLC)
+
+Pre-print: https://www.medrxiv.org/content/10.1101/2025.01.09.24315050v1
